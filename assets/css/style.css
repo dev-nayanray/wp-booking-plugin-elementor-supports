@@ -1,0 +1,22 @@
+.wbe-product-booking {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.wbe-featured-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.wbe-booking-form {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
